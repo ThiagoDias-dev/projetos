@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.Scanner; 
 
-public class loginSenha {
+public class verificadorLoginSenha {
     public static void main(String[] args) {
       Scanner scanner = new Scanner (System.in);
             System.out.println("========SISTEMA DE LOGIN========");
