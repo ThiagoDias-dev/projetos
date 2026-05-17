@@ -12,13 +12,13 @@ public class loginSenha {
             
             while (tentativa<3) {
             System.out.println("DIGITE O LOGIN: ");
-             String usuarioLogin = scanner.nextLine();
+             String usuarioLogin = scanner.nextLine().trim();
              
              System.out.println("DIGITE A SENHA: ");
-             String usuarioSenha = scanner.nextLine();
+             String usuarioSenha = scanner.nextLine().trim();
            
               
-             if (usuarioLogin.equals (login) && usuarioSenha.equals (senha)){
+             if (usuarioLogin.equalsIgnoreCase (login) && usuarioSenha.equals (senha)){
                  System.out.println("\nSEJA BEM-VINDO ");
                  break;
                  }
