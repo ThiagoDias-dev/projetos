@@ -1,8 +1,9 @@
+package src;
 import java.util.*;
 import java.util.Scanner; 
 
-public class verificadorLoginSenha {
-    public static void main(String[] args) {
+public class Login {
+    public static void LoginGenerator() {
       Scanner scanner = new Scanner (System.in);
             System.out.println("========SISTEMA DE LOGIN========");
             
@@ -30,11 +31,9 @@ public class verificadorLoginSenha {
              if (tentativa == 3){
                  System.out.println("SISTEMA BLOQUEADO POR EXCESSO DE TENTATIVA ");
                  break;
-             }
+                            }
               
-            }
+                        }
              
-             scanner.close();
-             
-            }      
+                   }      
                 }
