@@ -15,7 +15,16 @@ public class Cpf {
 
         System.out.println("Me informe seu CPF: ");
             String cpf = scanner.nextLine();
-        
+            cpf = cpf.replace(".","").replace("-", "");
+            if (cpf.length() !=11)
+            if (cpf.matches("\\%d+"))
+            
+            
+             {
+                
+            }{
+            };
+            
     }
 
 }
